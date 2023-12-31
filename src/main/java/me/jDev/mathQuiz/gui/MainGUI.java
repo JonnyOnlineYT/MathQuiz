@@ -9,6 +9,7 @@ public class MainGUI extends JFrame {
     public static MainGUI instance;
     public MainGUI() {
         instance = this;
+        setTitle("Math Quiz");
         setSize(800, 500);
         setResizable(false);
         setLocationRelativeTo(null);
